@@ -67,8 +67,8 @@ function download( data ) {
 	    a.text = "DOWNLOAD";
     	a.download = 'fontawesome.svg';
     	document.body.appendChild(a);
-    	// a.click();
-    	// a.parentNode.removeChild(a);
+    	a.click();
+    	a.parentNode.removeChild(a);
 };
 
 function createFile(fileData){
